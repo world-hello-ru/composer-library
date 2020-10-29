@@ -1,0 +1,24 @@
+{
+    "name": "world-hello-ru/composer-library",
+    "description": "Boilerplate package for creating other packages.",
+    "keywords": ["template", "composer", "package"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WorldHello\\Lib\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WorldHello\\Lib\\Tests\\": "tests/"
+        }
+    }
+}

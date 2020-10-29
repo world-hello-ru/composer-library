@@ -1,0 +1,8 @@
+vendor
+composer.phar
+composer.lock
+.idea
+.DS_Store
+.phpunit.result.cache
+
+composer create-project world-hello-ru/composer-library mylibrary
