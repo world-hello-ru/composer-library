@@ -6,7 +6,7 @@
     "type": "project",
     "authors": [],
     "require": {
-        "php": "^7.4"
+        "php": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4"
